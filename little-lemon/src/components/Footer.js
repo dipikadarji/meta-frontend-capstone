@@ -1,14 +1,8 @@
-{`// src/components/Footer.js
 function Footer() {
   return (
-    
-
-      
-Little Lemon © 2024
-
-
-    
-
+    <footer style={{ background:"#495E57", color:"#fff", padding:"40px", textAlign:"center" }}>
+      <p>Little Lemon © 2024</p>
+    </footer>
   );
 }
-export default Footer;`}
+export default Footer;
